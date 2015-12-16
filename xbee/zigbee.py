@@ -164,7 +164,8 @@ class ZigBee(XBeeBase):
                              {'name':'device_type',     'len':1},
                              {'name':'source_event',    'len':1},
                              {'name':'digi_profile_id', 'len':2},
-                             {'name':'manufacturer_id', 'len':2}]}
+                             {'name':'manufacturer_id', 'len':2},
+                             {'name':'stuff',           'len':4}]}
                      }
     
     def _parse_IS_at_response(self, packet_info):
